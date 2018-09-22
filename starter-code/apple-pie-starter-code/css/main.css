@@ -1,0 +1,36 @@
+body {
+    font-family:Ubuntu,Helvetica,Arial,sans-serif;
+    font-size:11pt;
+}
+
+.recipeTitle  {
+    margin:auto;
+    display:block;
+    text-align: center;
+    font-weight: normal;
+    font-size:36pt;
+    color:#ffffff;
+}
+
+#myTitle {
+    background:url("../images/apple-pie.jpg");
+    /* height:300px;
+    width:100%; */
+    padding-top:140px;
+    padding-bottom:140px;
+    margin-bottom:30pt;
+}
+
+h2 {
+    font-family:Ubuntu,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size:13pt;
+}
+
+ul.Ingredients li {
+    list-style-type: none;    
+}
+
+ul.Ingredients li:before {
+    content: "- ";
+}
